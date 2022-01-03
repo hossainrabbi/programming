@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* ROOT Style */
+:root {
+  --black-color: #3c3c3c;
+}
+
+/* BASIC TAG STYLE */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* Main CLASS or ID STYLE */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* HEADER STYLE */
+.header {
+  background-color: #dddddd;
+  height: 70px;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.header nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header nav .logo img {
+  width: 300px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header ul li:first-child {
+  margin-left: 0;
+}
+
+.header ul li:last-child {
+  margin-right: 0;
+}
+
+.header ul li a {
+  padding: 5px 10px;
+  color: var(--black-color);
+}
