@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 2</title>
+  </head>
+  <body>
+    <form name="ageForm" action="/action.php" onsubmit="return handleAgeForm()">
+      <input type="text" name="age" placeholder="Enter your age" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <h3 id="demo"></h3>
+
+    <h2 id="time"></h2>
+    <button onclick="timerBtn()">Change Time</button>
+
+    <script src="./form2.js"></script>
+  </body>
+</html>
